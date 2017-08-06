@@ -4,13 +4,17 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d857d7c8-ee77-400f-a3e5-908e92a006a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>helloworld.py</StartupFile>
+    <StartupFile>class_func.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>PythonCourses</Name>
     <RootNamespace>PythonCourses</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>
+    </CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +25,43 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="class_func.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="continue.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dictFunc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="docStringFunc.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="func.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="helloworld.py" />
+    <Compile Include="ifstatement.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="mod_name.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pythonenv.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="str_format.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuple_cases.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="var_str.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="whilestatement.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
