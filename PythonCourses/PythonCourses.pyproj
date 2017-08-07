@@ -37,7 +37,13 @@
     <Compile Include="docStringFunc.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="except.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="func.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="graduated.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="helloworld.py" />
@@ -45,6 +51,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="mod_name.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="palindrome.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="poemFunc.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="pythonenv.py">
@@ -57,6 +69,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="var_str.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="werid.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="whilestatement.py">
